@@ -1,0 +1,3 @@
+# peak-recording-with-connection-to-micro
+
+By running this program, it will connect to the microphone, the hardware is connected with. It will print all captured peaks above an explicit threshold. Also the captured peaks (1ms before the peak, 1ms after the peak) will be saved in a folder named "records_threshold_<threshold-value>", as well as in a csv-file, which can analyzed with the after_recording_print.py script.
